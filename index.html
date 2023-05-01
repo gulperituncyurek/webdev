@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Weekly Planner</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <style>
+        #header > h1 {
+            justify-content: center;
+            align-items: center;
+            display: flex;
+        }
+
+        .days > div > div {
+            border-radius: 25%;
+            border: 0;
+        }
+
+        .days > div {
+            gap: 10px;
+        }
+
+        #monday {
+            background-color: aliceblue;
+        }
+
+        #tuesday {
+            background-color: bisque;
+        }
+
+        #wednesday {
+            background-color: azure;
+        }
+
+        #thursday {
+            background-color: blanchedalmond;
+        }
+
+        #friday {
+            background-color: cadetblue;
+        }
+
+        #saturday {
+            background-color: coral;
+        }
+
+        #sunday {
+            background-color: crimson;
+        }
+
+        #notes {
+            background-color: cornflowerblue;
+        }
+
+        .row {
+            width: 100%;
+            display: flex;
+            margin: 10px;
+            height: 100px;
+        }
+
+        .days > .row {
+            height: 200px;
+        }
+
+        h2 {
+            display: none;
+        }
+
+        #notes {
+            gap: 15px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12" id="header">
+                <h1>Weekly Planner</h1>
+            </div>
+        </div>
+        <div class="days">
+            <div class="row">
+                <div class="col-lg-4" id="monday">
+                    <h2>Day 1</h2>
+                </div>
+                <div class="col-lg-4" id="tuesday">
+                    <h2>Day 2</h2>
+                </div>
+                <div class="col-lg-4" id="wednesday">
+                    <h2>Day 3</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4" id="thursday">
+                    <h2>Day 4</h2>
+                </div>
+                <div class="col-lg-4" id="friday">
+                    <h2>Day 5</h2>
+                </div>
+                <div class="col-lg-4" id="saturday">
+                    <h2>Day 6</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4" id="sunday">
+                    <h2>Day 7</h2>
+                </div>
+                <div class="col-lg-8" id="notes">
+                    <h2>Notes</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
